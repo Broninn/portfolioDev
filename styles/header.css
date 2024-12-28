@@ -1,3 +1,14 @@
+#header {
+  .container div img:nth-child(1) {
+    width: 112px;
+    height: 112px;
+    border-radius: 50%;
+    border: 2px solid var(--red);
+    padding: 2px;
+    object-fit: cover;
+  }
+}
+
 .header {
   margin-top: 120px;
   background-image: url("../assets/images/Background_Intro.png");
@@ -15,15 +26,6 @@ body .container {
 .image-container {
   position: relative;
   display: inline-block;
-}
-
-.container div img:nth-child(1) {
-  width: 112px;
-  height: 112px;
-  border-radius: 50%;
-  border: 2px solid var(--red);
-  padding: 2px;
-  object-fit: cover;
 }
 
 .container div img:nth-child(2) {

@@ -11,9 +11,13 @@
       href="https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100..900;1,100..900&family=Inconsolata:wght@200..900&family=Maven+Pro:wght@400..900&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="path/to/font-awesome/css/font-awesome.min.css"
+    />
   </head>
   <body>
-    <header class="header">
+    <header id="header" class="header">
       <div class="container">
         <div class="image-container">
           <img src="https://github.com/broninn.png" alt="Foto de Perfil" />
@@ -127,30 +131,38 @@
               </figcaption>
             </figure>
           </a>
-          <figure>
-            <img
-              src="assets/images/Thumbnail_Project-04.png"
-              alt="Projeto Zingen"
-              class="projects-img"
-            />
-            <figcaption>
-              <span>Zingen</span>
-              <h3>
-                Landing Page completa e responsiva de um aplicativo de Karaokê
-              </h3>
-            </figcaption>
-          </figure>
-          <figure>
-            <img
-              src="assets/images/Thumbnail_Project-05.png"
-              alt="Projeto Refund"
-              class="projects-img"
-            />
-            <figcaption>
-              <span>Refund</span>
-              <h3>Um sistema para pedido e acompanhamento de reembolso</h3>
-            </figcaption>
-          </figure>
+          <a href="#" class="project-link" target="_blank">
+            <figure>
+              <img
+                src="assets/images/Thumbnail_Project-04.png"
+                alt="Projeto Zingen"
+                class="projects-img"
+              />
+              <figcaption>
+                <span>Zingen</span>
+                <h3>
+                  Landing Page completa e responsiva de um aplicativo de Karaokê
+                </h3>
+              </figcaption>
+            </figure>
+          </a>
+          <a
+            href="https://broninn.github.io/receitas/"
+            class="project-link"
+            target="_blank"
+          >
+            <figure>
+              <img
+                src="assets/images/Thumbnail_Project-05.png"
+                alt="Projeto Refund"
+                class="projects-img"
+              />
+              <figcaption>
+                <span>Refund</span>
+                <h3>Um sistema para pedido e acompanhamento de reembolso</h3>
+              </figcaption>
+            </figure>
+          </a>
           <a
             href="https://broninn.github.io/localTuristico/"
             class="project-link"
@@ -181,42 +193,105 @@
       </header>
       <article class="grid grid-cols-3 gap-24">
         <figure>
-          <img
-            src="assets/icons/hardwares.svg"
-            alt="ícones de hardwares"
-          />
+          <img src="assets/icons/hardwares.svg" alt="ícones de hardwares" />
           <figcaption>
             <span>Websites e Aplicativos</span>
-            <h3>
-              Desenvolvimento de interfaces
-            </h3>
+            <h3>Desenvolvimento de interfaces</h3>
           </figcaption>
         </figure>
         <figure>
-          <img
-            src="assets/icons/BD.svg"
-            alt="ícones de API e banco de dados"
-          />
+          <img src="assets/icons/BD.svg" alt="ícones de API e banco de dados" />
           <figcaption>
             <span>API e banco de dados</span>
-            <h3>
-              Criação de serviços do sistema
-            </h3>
+            <h3>Criação de serviços do sistema</h3>
           </figcaption>
         </figure>
         <figure>
-          <img
-            src="assets/icons/Infinity.svg"
-            alt="ícones de devOps"
-          />
+          <img src="assets/icons/Infinity.svg" alt="ícones de devOps" />
           <figcaption>
             <span>DevOps</span>
-            <h3>
-              Gestão e infraestrutura da aplicação
-            </h3>
+            <h3>Gestão e infraestrutura da aplicação</h3>
           </figcaption>
         </figure>
       </article>
     </section>
+    <section id="contact">
+      <div class="gap-8">
+        <h2>Contato</h2>
+        <h1>Gostou do meu trabalho?</h1>
+        <h3>Entre em contato ou acompanhe minhas redes sociais</h3>
+      </div>
+      <div id="links" class="gap-16">
+        <a
+          href="https://www.linkedin.com/in/bruno-henrique-da-silva-mosko/"
+          class="link-item"
+          target="_blank"
+        >
+          <img
+            src="assets/icons/linkedin.svg"
+            alt="Ícone do LinkedIn"
+            class="icon-linkedin"
+          />
+          <span class="link-text">LinkedIn</span>
+          <img
+            src="assets/icons/arrowup.svg"
+            alt="Ícone de seta indicando acesso ao link"
+            class="icon-arrow"
+          />
+        </a>
+        <a
+          href="https://www.instagram.com/bronohenrique"
+          class="link-item"
+          target="_blank"
+        >
+          <img
+            src="assets/icons/instagram.svg"
+            alt="Ícone do Instagram"
+            class="icon-linkedin"
+          />
+          <span class="link-text">Instagram</span>
+          <img
+            src="assets/icons/arrowup.svg"
+            alt="Ícone de seta indicando acesso ao link"
+            class="icon-arrow"
+          />
+        </a>
+        <a href="https://github.com/Broninn/" class="link-item" target="_blank">
+          <img
+            src="assets/icons/github-icon.svg"
+            alt="Ícone do GitHub"
+            class="icon-linkedin"
+          />
+          <span class="link-text">GitHub</span>
+          <img
+            src="assets/icons/arrowup.svg"
+            alt="Ícone de seta indicando acesso ao link"
+            class="icon-arrow"
+          />
+        </a>
+        <a href="mailto:bruno-hs@outlook.com" class="link-item" target="_blank">
+          <img
+            src="assets/icons/email.svg"
+            alt="Ícone do Email"
+            class="icon-linkedin"
+          />
+          <span class="link-text">E-mail</span>
+          <img
+            src="assets/icons/arrowup.svg"
+            alt="Ícone de seta indicando acesso ao link"
+            class="icon-arrow"
+          />
+        </a>
+      </div>
+    </section>
+    <footer>
+      <a
+        href="https://wa.me/5541991012987"
+        class="whatsapp-button"
+        target="_blank"
+      >
+        <img src="assets/icons/whatsapp.svg" alt="" />
+      </a>
+    </footer>
   </body>
 </html>
