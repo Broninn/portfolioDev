@@ -6,7 +6,7 @@
   text-align: center;
 }
 
-.projects header span {
+header span {
   font: var(--inconsolata-subtitle);
   color: var(--red);
   margin-bottom: 8px;

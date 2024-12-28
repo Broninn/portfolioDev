@@ -1,0 +1,29 @@
+#services {
+  background-color: var(--gray-100);
+  padding-inline: 120px;
+  padding-top: 88px;
+
+
+  header {
+    margin-bottom: 56px;
+    margin-inline: auto;
+    text-align: center;
+  }
+
+  article {
+    max-width: 1040px;
+    margin-inline: auto;
+  }
+
+  figure {
+    border: solid 2px var(--gray-200);
+    border-radius: 12px;
+    padding-inline: 20px;
+  }
+  figure img {
+    margin-block: -20px;
+  }
+  figcaption{
+    padding-bottom: 20px;
+  }
+}

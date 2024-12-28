@@ -63,6 +63,10 @@ h2 {
   gap: 36px;
 }
 
+.gap-24 {
+  gap: 24px;
+}
+
 main {
   margin-bottom: 144px;
 }
