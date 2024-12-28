@@ -1,5 +1,7 @@
+
+
 .projects header {
-  margin-top: 56px;
+  margin-block: 56px;
   margin-inline: auto;
   text-align: center;
 }
@@ -8,4 +10,37 @@
   font: var(--inconsolata-subtitle);
   color: var(--red);
   margin-bottom: 8px;
+}
+
+figure {
+  width: 330px;
+}
+
+figcaption span {
+  font: var(--asap-sm);
+  color: var(--gray-600);
+  width: 306px;
+
+}
+
+figcaption h3 {
+  font: var(--mavenPro-sm);
+  color: var(--gray-500);
+  width: 306px;
+}
+
+.projects-img {
+  margin-bottom: -24px;
+  width: 306px;
+  border-radius: 8px;
+}
+
+.project-link {
+  text-decoration: none; 
+  color: inherit; 
+  display: inline-block;
+}
+
+.project-link:hover {
+  opacity: 0.9;
 }

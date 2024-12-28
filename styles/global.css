@@ -50,3 +50,19 @@ li a {
 h2 {
   font: var(--asap-md);
 }
+
+.grid {
+  display: grid;
+}
+
+.grid-cols-3 {
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.gap-36 {
+  gap: 36px;
+}
+
+main {
+  margin-bottom: 144px;
+}
