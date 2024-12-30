@@ -8,7 +8,7 @@ Bem-vindo ao meu portfólio de desenvolvimento! Este projeto destaca minhas habi
   - HTML5
   - CSS3
   - JavaScript (ES6+)
-  - React.js
+  - React.js (NextJS)
   - React Native
 
 - **Ferramentas:**
