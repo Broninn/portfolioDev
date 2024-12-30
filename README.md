@@ -9,7 +9,6 @@ Bem-vindo ao meu portfólio de desenvolvimento! Este projeto destaca minhas habi
   - CSS3
   - JavaScript (ES6+)
   - React.js (NextJS)
-  - React Native
 
 - **Ferramentas:**
   - Visual Studio Code
