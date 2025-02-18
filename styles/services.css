@@ -12,12 +12,16 @@
   & article {
     max-width: 1040px;
     margin-inline: auto;
+    display: grid;
+    gap: 16px;
   }
 
   & figure {
     border: solid 2px var(--gray-200);
     border-radius: 12px;
     padding-inline: 20px;
+    text-align: center;
+    padding: 2rem;
   }
 
   & figcaption {

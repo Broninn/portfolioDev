@@ -46,8 +46,8 @@ body {
 }
 
 .container {
-  max-width: 80rem;
-  margin-inline: auto;
+  --max-width: 375px;
+  width: max(var(--max-width), 100% - var(--px-lg) * 2);
 }
 
 li a {
@@ -57,24 +57,6 @@ li a {
 
 h2 {
   font: var(--asap-md);
-}
-
-
-
-.gap-36 {
-  gap: 2.25rem;
-}
-
-.gap-24 {
-  gap: 1.5rem;
-}
-
-.gap-16 {
-  gap: 1rem;
-}
-
-.gap-8 {
-  gap: .5rem;
 }
 
 main {
