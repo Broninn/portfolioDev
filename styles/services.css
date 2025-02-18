@@ -1,26 +1,26 @@
 #services {
   background-color: var(--gray-100);
-  padding-top: 88px;
-  padding-bottom: 120px;
+  padding-top: 5.5rem;
+  padding-bottom: 7.5rem;
 
-  header {
-    margin-bottom: 56px;
+  & header {
+    margin-bottom: 3.5rem;
     margin-inline: auto;
     text-align: center;
   }
 
-  article {
+  & article {
     max-width: 1040px;
     margin-inline: auto;
   }
 
-  figure {
+  & figure {
     border: solid 2px var(--gray-200);
     border-radius: 12px;
     padding-inline: 20px;
   }
 
-  figcaption {
+  & figcaption {
     padding-bottom: 20px;
   }
 }

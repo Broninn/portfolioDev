@@ -1,0 +1,15 @@
+.py-base {
+  padding-block: var(--py-base);
+}
+
+.flex {
+  display: flex;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
